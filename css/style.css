@@ -1,0 +1,93 @@
+:root {
+  --primary: #eebf00;
+  --secondary: #232b38;
+  --ternary: #6c6c6c;
+  --danger: #fe4545;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+ 
+}
+body {
+  min-height: 400vh;
+}
+.container {
+  width: 1192px;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 16px;
+}
+.cart-img {
+  width: 20px;
+  height: 20px;
+}
+.carousel-caption {
+  top: 30%;
+  left: -300px;
+}
+.carousel-caption h2 {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.carousel-caption h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+}
+.carousel-caption p {
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.carousel-caption .shop-btn {
+  background: var(--primary) !important;
+  outline: none;
+  border: none;
+  padding: 0.5rem 2rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+.slide-dot {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.banner-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.banner-container > img {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+
+  line-height: 75px;
+  font-size: 30px;
+}
+.banner-container .banner-box {
+  box-shadow: 1px 1px 2px 2px whitesmoke;
+  padding: 20px 10px;
+  width: 200px;
+}
+.banner-container .banner-box img {
+  width: 150px;
+}
+.banner-container .banner-box h4 {
+  font-size: 14px;
+  color: var(--ternary);
+}
+.banner-container .banner-box h5 {
+  font-size: 15px;
+}
+.banner-container .banner-box h3 {
+  font-size: 20px;
+  color: var(--danger);
+}
