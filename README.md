@@ -13,3 +13,4 @@ This repository contains  a front end for the E-commerce  website which includes
 - Bootstrap 5
 
 ![image](https://user-images.githubusercontent.com/67636219/117846878-79ec3700-b29f-11eb-8958-68ac566ce715.png)
+![image](https://user-images.githubusercontent.com/67636219/117855338-01d63f00-b2a8-11eb-93ce-50ecddf60792.png)
